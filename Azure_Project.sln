@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementy rozwiązania", "El
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Azure_Functions_Sentiment", "Azure_Functions_Sentiment\Azure_Functions_Sentiment.pyproj", "{A8538E87-1AFD-4C02-A5F3-D330ABB026FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,8 @@ Global
 		{7CD5CD0B-CBBA-4C2C-8773-02425538E7D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CD5CD0B-CBBA-4C2C-8773-02425538E7D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7CD5CD0B-CBBA-4C2C-8773-02425538E7D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8538E87-1AFD-4C02-A5F3-D330ABB026FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8538E87-1AFD-4C02-A5F3-D330ABB026FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
