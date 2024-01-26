@@ -485,3 +485,5 @@ $RECYCLE.BIN/
 
 #Python
 env/
+.python_packages
+.venv
