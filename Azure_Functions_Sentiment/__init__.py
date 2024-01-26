@@ -1,6 +1,8 @@
 import logging
+
 import azure.functions as func
 from pattern.text.en import sentiment
+
 
 def main(req: func.HttpRequest) -> func.HttpResponse:
     logging.info('Python HTTP trigger function processed a request.')

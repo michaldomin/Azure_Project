@@ -4,7 +4,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>a8538e87-1afd-4c02-a5f3-d330abb026fb</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Azure_Functions_Sentiment.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,9 +23,8 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Azure_Functions_Sentiment.py" />
-  </ItemGroup>
-  <ItemGroup>
+    <Content Include=".funcignore" />
+    <Content Include="function.json" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
@@ -37,6 +37,9 @@
       <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
       <Architecture>X64</Architecture>
     </Interpreter>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="__init__.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
