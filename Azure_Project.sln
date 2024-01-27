@@ -8,6 +8,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Elements", "Solution Elements", "{81A4A705-6F0C-4B65-BA65-716E747476BE}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
+		init.sql = init.sql
+		select.sql = select.sql
 	EndProjectSection
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Azure_Functions_Sentiment", "Azure_Functions_Sentiment\Azure_Functions_Sentiment.pyproj", "{A8538E87-1AFD-4C02-A5F3-D330ABB026FB}"
